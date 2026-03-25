@@ -1,0 +1,28 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Streamlit e Segredos (CRÍTICO)
+.streamlit/secrets.toml
+settings.json
+settings.bak.json
+audit_log.jsonl
+*.json
+
+# Bancos de Dados e Arquivos Locais
+chroma_db/
+knowledge_files/
+.chroma/
+
+# Ambientes virtuais
+venv/
+env/
+ENV/
+.venv/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+.DS_Store
