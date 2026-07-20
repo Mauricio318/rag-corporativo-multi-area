@@ -104,9 +104,4 @@ Esta abordagem permite que o repositório no GitHub contenha apenas o código li
 └── README.md               # Documentação técnica do repositório
 ```
 
----
 
-## 🛡️ Segurança e Privacidade
-
-- **Arquivos locais e banco vetorial:** A base vetorial (`chroma_db/`), os documentos enviados (`knowledge_files/`) e as configurações de usuários/logs são gerados localmente na primeira execução e estão incluídos no `.gitignore`.
-- **Credenciais:** Chaves de API e hashes de senha não devem ser commitados no controle de versão.
