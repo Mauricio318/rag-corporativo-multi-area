@@ -5,15 +5,25 @@ __pycache__/
 
 # Streamlit e Segredos (CRÍTICO)
 .streamlit/secrets.toml
+.streamlit/
 settings.json
 settings.bak.json
 audit_log.jsonl
 *.json
+*.tmp
+*.bak.json
 
 # Bancos de Dados e Arquivos Locais
 chroma_db/
 knowledge_files/
 .chroma/
+
+# Documentos locais e relatórios
+*.docx
+*.doc
+*.pdf
+*.txt
+!requirements.txt
 
 # Ambientes virtuais
 venv/
@@ -21,7 +31,7 @@ env/
 ENV/
 .venv/
 
-# IDEs
+# IDEs e sistema operacional
 .vscode/
 .idea/
 *.swp

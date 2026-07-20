@@ -7,3 +7,4 @@ python-docx>=1.1.0
 chromadb>=0.5.0
 bcrypt>=4.1.0
 numpy>=1.26.0
+extra-streamlit-components>=0.1.81
